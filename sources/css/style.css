@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Muli|PT+Serif|Prociono|Slabo+27px|Source+Sans+Pro|Trirong|Ubuntu|Aref+Ruqaa|Great+Vibes|Philosopher|Roboto+Condensed|Bitter|Source+Sans+Pro|Acme|Raleway|Work+Sans|Tangerine:wght@900|Oleo+Script:wght@700&display=swap|Montserrat");
+body {
+  background: #fde9e9;
+}
+.box {
+  min-height: 150px;
+  background: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+input[type="radio"] + label span {
+  -webkit-transition: background 0.2s, -webkit-transform 0.2s !important;
+  -moz-transition: background 0.2s, -moz-transform 0.2s !important;
+  -o-transition: background 0.2s, -o-transform 0.2s !important;
+  -ms-transition: background 0.2s, -ms-transform 0.2s !important;
+  transition: background 0.2s, transform 0.2s !important;
+  border: 2px #d2d2d2 solid;
+}
+input[type="radio"] + label span:hover,
+input[type="radio"] + label:hover span {
+  -webkit-transform: scale(1.2) !important;
+  -moz-transform: scale(1.2) !important;
+  -o-transform: scale(1.2) !important;
+  -ms-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+}
+input[type="radio"]:checked + label span {
+  background-color: #dc3434 !important;
+  -webkit-box-shadow: 0px 0px 0px 2px #fff inset !important;
+  box-shadow: 0px 0px 0px 2px #fff inset !important;
+}
+input[type="radio"]:checked + label {
+  color: #000 !important;
+}
